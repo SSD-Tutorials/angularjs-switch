@@ -1,0 +1,8 @@
+<div
+    class="ssd-switch-wrapper"
+    ng-init="getSwitchStatus(switchIndex)"
+    ng-click="flipSwitch(switchIndex)"
+    ng-class="{ 'on' : switchedOn }"
+    >
+    <div class="ssd-switch-handle">{{ switchedOn ? switchOnLabel : switchOffLabel }}</div>
+</div>

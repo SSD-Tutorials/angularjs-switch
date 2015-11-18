@@ -1,0 +1,99 @@
+body {
+
+    padding: 2rem 0;
+    transition: background-color 300ms linear;
+
+}
+
+body.on {
+
+    background-color: #000;
+
+}
+
+body.on #switchWrapper {
+
+    margin-bottom: 5rem;
+
+}
+
+#switchWrapper {
+
+    width: 100%;
+    max-width: 10rem;
+    margin: 0 auto 2rem;
+    transition: margin-bottom 300ms linear;
+
+}
+
+.ssd-switch-wrapper, .ssd-switch-handle {
+
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+
+}
+
+.ssd-switch-wrapper {
+
+    width: 100%;
+    padding: 2px;
+    cursor: pointer;
+
+    font-size: 0;
+    line-height: 0;
+
+    background-color: #aaa;
+    text-align: left;
+
+}
+
+.ssd-switch-handle {
+
+    width: 50%;
+    background-color: #ccc;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #fff;
+    line-height: 1.5rem;
+
+}
+
+.ssd-switch-wrapper.on {
+
+    text-align: right;
+    background-color: #00a7e1;
+
+}
+
+.ssd-switch-wrapper.on .ssd-switch-handle {
+
+    background-color: #007eaa;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
